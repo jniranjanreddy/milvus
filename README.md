@@ -9,3 +9,11 @@
 ![image](https://github.com/user-attachments/assets/5eaf713f-a489-47c1-99ed-661f0c299f6d)
 
 
+
+# How to install Milvus.
+```
+1. install docker
+2. wget https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh
+3. run attu - docker run -d -p 8000:3000 -e MILVUS_URL=localhost:19530 --name attu zilliz/attu:latest
+
+```
